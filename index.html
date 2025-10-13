@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique de Carteras</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Boutique de Carteras</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- INICIO -->
+
+
+    <!-- PRODUCTOS (Flexbox) -->
+    <section id="productos" class="productos">
+      <h2>Nuestras Carteras</h2>
+      <div class="productos-container">
+        <div class="card">
+          <img src="img/Cartera-negra.png" alt="Cartera negra elegante">
+          <h3>Cartera Elegance</h3>
+          <p>Cartera clásica negra de cuero sintético premium.</p>
+        </div>
+        <div class="card">
+          <img src="img/CarteraMarron.png" alt="Cartera marrón">
+          <h3>Cartera Urban</h3>
+          <p>Estilo casual ideal para uso diario, con múltiples compartimentos.</p>
+        </div>
+        <div class="card">
+          <img src="img/CarteraRoja.png" alt="Cartera roja">
+          <h3>Cartera Passion</h3>
+          <p>Diseño llamativo en tono rojo vibrante, ideal para destacar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEÑAS (Grid) -->
+    <section id="reseñas" class="reseñas">
+      <h2>Reseñas de Nuestras Clientas</h2>
+      <div class="reseñas-grid">
+        <div class="card">
+          <h3>Lucía Fernández</h3>
+          <p>"Las carteras son preciosas y de excelente calidad. ¡Me encantó la atención!"</p>
+        </div>
+        <div class="card">
+          <h3>María Torres</h3>
+          <p>"Compré la Urban y es perfecta para el trabajo. Muy cómoda y elegante."</p>
+        </div>
+        <div class="card">
+          <h3>Camila Ríos</h3>
+          <p>"Recibí mi cartera Passion en 2 días, ¡hermosa y bien embalada!"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/mpwyolor" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Boutique de Carteras - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
