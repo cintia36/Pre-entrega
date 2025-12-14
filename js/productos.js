@@ -1,5 +1,4 @@
 import { agregarAlCarrito } from "./funcionesCarrito.js";
-import { mostrarMensaje } from "./ui.js";
 
 const createCarteraCardElement = (cartera) => {
     const prod = cartera;
