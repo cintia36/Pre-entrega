@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique - Reseñas</title>
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/resenias.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">      
+      <!-- HEADER -->
+      <header>
+        <h1>Tienda de carteras</h1>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pages/productos.html">Productos</a></li>
+            <li><a href="/pages/resenias.html">Reseñas</a></li>
+            <li><a href="/pages/contacto.html">Contacto</a></li>
+            <li>
+              <a href="/pages/carrito.html" class="carrito-icono">
+                🛒 <span id="contador-carrito" class="contador-carrito">0</span>
+              </a> 
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- MAIN -->
+      <main>
+        <!-- RESEÑAS (Grid) -->
+        <section id="resenias" class="resenias">
+          <h2>Reseñas de Nuestras Clientas</h2>
+          <div class="reseñas-grid">
+            <div class="card">
+              <h3>Lucía Fernández</h3>
+              <p>"Las carteras son preciosas y de excelente calidad. ¡Me encantó la atención!"</p>
+            </div>
+            <div class="card">
+              <h3>María Torres</h3>
+              <p>"Compré la Urban y es perfecta para el trabajo. Muy cómoda y elegante."</p>
+            </div>
+            <div class="card">
+              <h3>Camila Ríos</h3>
+              <p>"Recibí mi cartera Passion en 2 días, ¡hermosa y bien embalada!"</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>&copy; 2025 Boutique de Carteras - Todos los derechos reservados</p>
+      </footer>
+    </div>
+    <script type="module" src="../js/funcionesCarrito.js"></script>
+</body>
+</html>

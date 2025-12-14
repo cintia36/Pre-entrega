@@ -1,0 +1,37 @@
+/* Contacto */
+.contacto {  
+  text-align: center;
+}
+
+.contacto form {
+  text-align:start;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contacto button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contacto button:hover {
+  background-color: #0056b3;
+}

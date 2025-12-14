@@ -1,0 +1,86 @@
+/* Productos con Flexbox */
+.productos {
+  text-align: center;
+}
+
+.productos-carrito-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.productos .card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 70vw;
+  text-align:start;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productos .card:hover {
+  transform: translateY(-8px);
+}
+
+.orden-image {
+  width: 110px;
+  border-radius: 12px;
+}
+
+.producto-order {
+  display: flex;
+  flex-direction: row;
+}
+
+.acciones-producto-carrito {
+    margin-left: auto;
+}
+
+.proucto-order-cantidad {
+    margin-left: 60px;
+}
+
+.producto-accion {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#resumen-carrito div, #acciones-carrito {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#acciones-carrito {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eliminar.desktop {
+  display: initial;
+}
+
+.eliminar.mobile {
+  display: none;
+}
+
+/* Responsividad */
+@media (max-width: 800px) {
+  .eliminar.desktop {
+    display: none;
+  }
+
+  .eliminar.mobile {
+    display: block;
+  }
+}

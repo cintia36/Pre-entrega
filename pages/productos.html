@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique - Productos</title>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- HEADER -->
+      <header>
+        <h1>Tienda de carteras</h1>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pages/productos.html">Productos</a></li>
+            <li><a href="/pages/resenias.html">Reseñas</a></li>
+            <li><a href="/pages/contacto.html">Contacto</a></li>
+            <li>
+              <a href="/pages/carrito.html" class="carrito-icono">
+                🛒 <span id="contador-carrito" class="contador-carrito">0</span>
+              </a> 
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+            
+        <!-- PRODUCTOS (Flexbox) -->
+        <section id="productos" class="productos">
+          <h2>Nuestras Carteras</h2>
+          <div id="productos-container" class="productos-container"></div>
+        </section>
+      </main>
+
+        <!-- FOOTER -->
+      <footer>
+          <p>&copy; 2025 Boutique de Carteras - Todos los derechos reservados</p>
+      </footer>
+    </div>
+    <script type="module" src="../js/funcionesCarrito.js"></script>
+    <script type="module" src="../js/storage.js"></script>
+    <script type="module" src="../js/ui.js"></script>
+    <script type="module" src="../js/productos.js"></script>
+  </body>
+</html>

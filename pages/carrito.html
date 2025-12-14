@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boutique de Carteras</title>
+  <title>Mi carrito</title>
   <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/carrito.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="wrapper">    
+  <div class="wrapper">
+      
     <!-- HEADER -->
     <header>
       <h1>Tienda de carteras</h1>
@@ -28,16 +30,25 @@
       </nav>
     </header>
 
-    <!-- MAIN -->
     <main>
-      <!-- INICIO -->
-      <section id="inicio" class="inicio">
-        <h2>Quienes somos:</h2>
-        <p>En nuestra marca, creemos que una cartera es mucho más que un accesorio: es una compañera de cada día. Diseñamos 
-          piezas que combinan estilo, funcionalidad y calidad, pensadas para acompañarte en cada momento de tu vida. Trabajamos con 
-          materiales seleccionados y dedicación artesanal para ofrecer productos duraderos, actuales y auténticos.
-          Nuestro compromiso es brindarte carteras que reflejen tu personalidad y te hagan sentir única, con diseños creados 
-          para inspirar confianza, comodidad y elegancia en cada paso.</p>
+      <section id="productos" class="productos">
+        <h2>Carrito de compras</h2>
+        <!-- Productos del carrito -->
+        <div id="productos-container" class="productos-container">
+         
+        </div>
+      </section>
+      <section id="resumen-carrito">
+        <!-- Aca ia el resumen del carrito -->
+        <div>
+          <h3>Resumen de tu compra:</h3>
+          <h2>TOTAL $<span id="total-compra"></span></h2>
+        </div>
+      </section>
+      <section class="acciones-carrito" id="acciones-carrito">
+        <!-- Botones de eliminar y finlizar compra que se manejas desde JS -->
+        <button type="button" id="vaciar-carrito">Vaciar carrito</button>
+        <button type="button" id="pagar-compra">Finalizar compra</button>
       </section>
     </main>
 
@@ -45,7 +56,8 @@
     <footer>
       <p>&copy; 2025 Boutique de Carteras - Todos los derechos reservados</p>
     </footer>
+    <script type="module" src="../js/funcionesCarrito.js"></script>
+    <script type="module" src="/js/carrito.js"></script>
   </div>
-  <script type="module" src="../js/funcionesCarrito.js"></script>
 </body>
 </html>
