@@ -4,21 +4,21 @@
       "id": "1",
       "nombre": "Cartera Elegance",
       "descripcion": "Cartera clásica negra de cuero sintético premium.",
-      "imagen": "/img/productos/Cartera-negra.png",
+      "imagen": "/Pre-entrega/img/productos/Cartera-negra.png",
       "precio": 12345
     },
     {
       "id": "2",
       "nombre": "Cartera Urban",
       "descripcion": "Estilo casual ideal para uso diario, con múltiples compartimentos.",
-      "imagen": "/img/productos/CarteraMarron.png",
+      "imagen": "/Pre-entrega/img/productos/CarteraMarron.png",
       "precio": 23456
     },
     {
       "id": "3",
       "nombre": "Cartera Passion",
       "descripcion": "Diseño llamativo en tono rojo vibrante, ideal para destacar.",
-      "imagen": "/img/productos/CarteraRoja.png",
+      "imagen": "/Pre-entrega/img/productos/CarteraRoja.png",
       "precio": 34567
     }
   ]
